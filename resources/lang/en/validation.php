@@ -133,9 +133,16 @@ return [
     |
     */
 
-    'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+    'custom' =>
+    [
+        'lname' => [
+            'required' => 'We need to know your Last Name!',
+        ],
+        'fname' => [
+            'required' => 'We need to know your First Name!',
+        ],
+        'weight' => [
+            'required' => 'We need to know your Weight!',
         ],
     ],
 
