@@ -2,21 +2,6 @@
 
 @section('content')
 
-{{-- <h2>Add Donation Entry</h2>
-
-<form action="/donation" method="Post">
-  @csrf
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" ><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" ><br><br>
-  <label for="weight">Weight:</label><br>
-  <input type="text" id="weight" name="weight" ><br>
-  <label for="blood_type">Blood Type:</label><br>
-  <input type="text" id="blood_type" name="blood_type" ><br>
-  <input type="submit" value="Submit">
-</form> --}}
-
 <h1>Create a donation</h1>
 
 <!-- if there are creation errors, they will show here -->

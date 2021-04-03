@@ -26,7 +26,7 @@
 
     <div class="form-group">
         {{ Form::label('blood_type', 'Blood Type') }}
-        {{ Form::text('blood_type', null, array('class' => 'form-control')) }}
+        {{ Form::select('blood_type', array('0' => '01', 'A' => 'A1', 'B' => 'B1', 'AB' => 'AB'), old('blood_type'), array('class' => 'form-control')) }}
     </div>
 
     {{ Form::submit('Edit the donation!', array('class' => 'btn btn-primary')) }}
