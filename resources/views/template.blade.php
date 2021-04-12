@@ -17,6 +17,9 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ URL::to('donation') }}">View All Donators</a></li>
                     <li><a href="{{ URL::to('donation/create') }}">Create a Donator</a>
+                    <li>|</li>
+                    <li><a href="{{ URL::to('hotel') }}">View All Hotels</a></li>
+                    <li><a href="{{ URL::to('hotel/create') }}">Create a Hotels</a>
                 </ul>
             </nav>
             @yield('content')
